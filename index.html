@@ -53,7 +53,7 @@
             text-align: center;
         }
         .message p {
-            font-size: 24px;
+            font-size: 36px; /* Increased font size */
             color: white;
         }
         .wish-button {
@@ -76,8 +76,8 @@
         }
         .envelope {
             position: relative;
-            width: 300px;
-            height: 230px;
+            width: 250px; /* Reduced width */
+            height: 180px; /* Reduced height */
             background: #f5edd1;
             box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
         }
@@ -86,9 +86,9 @@
             position: absolute;
             top: 0;
             z-index: 2;
-            border-top: 130px solid #ecdeb8;
-            border-right: 150px solid transparent;
-            border-left: 150px solid transparent;
+            border-top: 100px solid #ecdeb8; /* Adjusted size */
+            border-right: 125px solid transparent; /* Adjusted size */
+            border-left: 125px solid transparent; /* Adjusted size */
             transform-origin: top;
             transition: all 0.5s ease-in-out 0.7s;
         }
@@ -98,10 +98,10 @@
             z-index: 2;
             width: 0px;
             height: 0px;
-            border-top: 130px solid transparent;
-            border-right: 150px solid #e6cfa7;
-            border-bottom: 100px solid #e6cfa7;
-            border-left: 150px solid #e6cfa7;
+            border-top: 100px solid transparent; /* Adjusted size */
+            border-right: 125px solid #e6cfa7; /* Adjusted size */
+            border-bottom: 80px solid #e6cfa7; /* Adjusted size */
+            border-left: 125px solid #e6cfa7; /* Adjusted size */
         }
         .letter {
             position: absolute;
@@ -248,7 +248,7 @@
     <div class="envelope-wrapper" id="envelopeWrapper">
         <div class="envelope">
             <div class="letter glow-border">
-                <img src="path/to/your/image.jpg" alt="Surprise Image">
+                <img src="frnd.jpg" alt="Surprise Image"> <!-- Added a placeholder image -->
             </div>
         </div>
         <div class="heart"></div>
